@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: con1 Adapter Meta Model Bundle
+Bundle-SymbolicName: com.heston.adapter.con1.metamodel;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: heston
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.informatica.sdk.metamodel,
+ com.heston.adapter.con1.connection.model,
+ com.heston.adapter.con1.metadata.model,
+ com.heston.adapter.con1.runtime.model

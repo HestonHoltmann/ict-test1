@@ -1,0 +1,204 @@
+<Connector definitionVersion="10.0">
+   <ConnectorDefinition uuid="91bfb16a-4bc0-4398-bce9-b0f6efdad68a" connectorCategory="File System" connectorShortName="con1" connectorType="ENTERPRISE_APP" version="1.0.0" poolType="NONE" vendorShortName="heston" vendorLongName="heston" name="con1" description="heston test con1 with ict in github - to test project clone and import accross dev machines that differ in os and how base tools installed by users">
+      <Connections>
+         <Connection>
+            <name>FileSystem</name>
+            <ConnectionAttributes>
+               <ConnectionAttribute defaultValue="c:\tmp\test.txt" isMandatory="false" isEncrypted="false" maxOccurs="0" minOccurs="0" persistSize="0" maxLength="255" minLength="0" type="STRING" name="filename" hasDependentAttr="false" isHidden="false" isSubstitutable="false" isParameterizable="false" cliDisplayName="filename" defaultDisplayName="filename" description="filename"/>
+            </ConnectionAttributes>
+            <ConnectionDisplayDefinitions displayType="DEFAULT">
+               <pageList pageName="Connection Page" pageDescription="Connection Page">
+                  <groupList name="Connection Section" description="Connection Section" toolTip="Connection Section" title="Connection Section">
+                     <displayAttributeList displayName="filename" toolTip="filename" hasDepAttr="false" isHidden="false" isEnabled="true" isMandatory="false">
+                        <attribute defaultValue="c:\tmp\test.txt" isMandatory="false" isEncrypted="false" maxOccurs="0" minOccurs="0" persistSize="0" maxLength="255" minLength="0" type="STRING" name="filename" hasDependentAttr="false" isHidden="false" isSubstitutable="false" isParameterizable="false" cliDisplayName="filename" defaultDisplayName="filename" description="filename" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="connectionAttribute"/>
+                     </displayAttributeList>
+                  </groupList>
+               </pageList>
+            </ConnectionDisplayDefinitions>
+         </Connection>
+      </Connections>
+      <TypeSystem name="con1hestontypesystem" mappingType="platform" typeSystemTemplate="RestTypeSystemTemplate">
+         <NativeDataTypes>
+            <NativeDataType semanticType="Length" name="String" comments="String data type" maxLength="65535" defaultLength="1024" lengthUnit="bytes" editableLength="true" variableAllocation="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticLengthType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="string" nativeDataType="String" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="Boolean" comments="Boolean data type" maxPrecision="12" defaultPrecision="12" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="integer" nativeDataType="Boolean" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="false"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="Integer" comments="Integer data type" maxPrecision="12" defaultPrecision="12" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="integer" nativeDataType="Integer" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="BigInt" comments="Big Integer data type" maxPrecision="8" defaultPrecision="8" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="biginteger" nativeDataType="BigInt" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="SciDecimal" name="Decimal" comments="Decimal data type" maxPrecision="31" defaultPrecision="10" editablePrecision="true" editableScale="true" maxScale="10" minScale="0" defaultScale="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticSciDecimalType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="decimal" nativeDataType="Decimal" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Float" name="Double" comments="Double data type" maxPrecision="15" defaultPrecision="15" editablePrecision="true" precisionRadix="binary" maxExponent="252" minExponent="252" exponentRadix="decimal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticFloatType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="double" nativeDataType="Double" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="Long" comments="Long data type" maxPrecision="8" defaultPrecision="8" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="biginteger" nativeDataType="Long" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="false"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Date" name="Timestamp" comments="Timestamp data type" yearSupported="true" monthSupported="true" daySupported="true" hourSupported="true" minuteSupported="true" secondSupported="true" timezoneSupported="true" maxScale="8" defaultScale="8" editableScale="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticGDateType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="date" nativeDataType="Timestamp" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="Array" comments="Array data type" maxPrecision="65535" defaultPrecision="1024" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="binary" nativeDataType="Array" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="false"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Length" name="Object" comments="Object data type" maxLength="65535" defaultLength="1024" lengthUnit="bytes" editableLength="true" variableAllocation="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticLengthType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="string" nativeDataType="Object" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="false"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+            <NativeDataType semanticType="Integer" name="Binary" comments="Binary data type" maxPrecision="65535" defaultPrecision="1024" editablePrecision="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="semanticIntegerType">
+               <NativeToPlatformDataTypeMaps>
+                  <NativeToPlatformDataTypeMap platformDataType="binary" nativeDataType="Binary" lossyToNative="false" lossyToForeign="false" bestMapFromNative="true" bestMapFromForeign="true"/>
+               </NativeToPlatformDataTypeMaps>
+            </NativeDataType>
+         </NativeDataTypes>
+      </TypeSystem>
+      <MetadataPattern name="con1_Account_Pattern" templateType="TypeA">
+         <PatternObjects>
+            <PatternObject description="con1_Description" displayName="con1_DisplayName" name="Containers" patternObjectType="Containers" supported="true">
+               <iconSet bannerIconName="Thick_DST_9_application_component_16x16.gif" iconicIconName="Thick_DST_9_application_component_16x16.gif" dfltIconName="Thick_DST_9_application_component_16x16.gif" defaultSet="false"/>
+            </PatternObject>
+            <PatternObject description="con1_Description" displayName="Folder" name="Packages" patternObjectType="Packages" supported="true">
+               <iconSet bannerIconName="Thick_DST_9_enterprise_package_16x16.gif" iconicIconName="Thick_DST_9_enterprise_package_16x16.gif" dfltIconName="Thick_DST_9_enterprise_package_16x16.gif" defaultSet="false"/>
+            </PatternObject>
+            <PatternObject displayName="con1_DisplayName" name="SharedDataRelationships" patternObjectType="SharedDataRelationships" supported="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="relationshipDefination"/>
+            <PatternObject description="Account" displayName="Account" name="Account" patternObjectType="FlatRecords" supported="true" generateInNewerConvention="true" nullConnectionAllowed="false" anonDSOSupported="false" CDOSupported="false" complexASOSupported="false" simpleASOSupported="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="nativeMetadataObjectDefinition">
+               <iconSet bannerIconName="Thick_DST_9_enterprise_table_75x66.png" iconicIconName="Thick_DST_9_enterprise_table_30x30.gif" dfltIconName="Thick_DST_9_enterprise_table_16x16.gif" defaultSet="false"/>
+               <NativeMetadataObjectExtensions/>
+               <nativeObjectFieldDefinition>AccountField</nativeObjectFieldDefinition>
+               <ConnectionReference>
+                  <connections>FileSystem</connections>
+               </ConnectionReference>
+               <metadataImportConfig multiSelectImportSupported="true" filterByDescImportSupported="false" filterByNameImportSupported="true" filterByPathImportSupported="false" skipDescriptionsImportSupported="false" showEntityRequested="true" showHierarchyOption="true" showRelatedRecsOption="false"/>
+               <operationTypes implicitlyCreated="false" interactionPattern="Connections" multiCapabilitySupport="single" name="AccountRead">
+                  <readCapability displayName="AccountRead">
+                     <iconSet bannerIconName="Thick_DST_9_enterprise_table_75x66.png" iconicIconName="Thick_DST_9_enterprise_table_30x30.gif" dfltIconName="Thick_DST_9_enterprise_table_16x16.gif" defaultSet="false"/>
+                     <inputProjectSupport name="AccountRead">
+                        <filterOperation supportsNativeFilter="false"/>
+                        <joinOperation supportsNativeJoin="false" implicitJoin="false"/>
+                        <projectionOperation dropFields="true" projectionAtNativeSource="false" projectionAtPlatform="false"/>
+                        <sortOperation sortAtNativeSource="false" sortAtPlatform="false"/>
+                     </inputProjectSupport>
+                  </readCapability>
+                  <supportedPlatforms>
+                     <supportedPlatform>JAVA</supportedPlatform>
+                  </supportedPlatforms>
+               </operationTypes>
+               <operationTypes implicitlyCreated="false" interactionPattern="Connections" multiCapabilitySupport="single" name="AccountWrite">
+                  <writeCapability displayName="AccountWrite">
+                     <iconSet bannerIconName="Thick_DST_9_enterprise_table_75x66.png" iconicIconName="Thick_DST_9_enterprise_table_30x30.gif" dfltIconName="Thick_DST_9_enterprise_table_16x16.gif" defaultSet="false"/>
+                     <attributes defaultValue="Update As Update" isMandatory="false" isEncrypted="false" maxOccurs="0" minOccurs="0" persistSize="0" maxLength="0" minLength="0" type="STRING" name="UpdateMode" hasDependentAttr="false" isHidden="false" isSubstitutable="false" isParameterizable="false" displayName="UpdateMode" description="" hidden="false" editable="false" partitionOverrideable="false" preDefinedAttribute="true">
+                        <valuesList value="Update As Update" displayValue="Update As Update"/>
+                        <valuesList value="Update Else Insert" displayValue="Update Else Insert"/>
+                     </attributes>
+                     <outputProjectSupport name="AccountWrite">
+                        <projectionOperation dropFields="true" projectionAtNativeSource="false" projectionAtPlatform="false"/>
+                     </outputProjectSupport>
+                  </writeCapability>
+                  <supportedPlatforms>
+                     <supportedPlatform>JAVA</supportedPlatform>
+                  </supportedPlatforms>
+               </operationTypes>
+            </PatternObject>
+            <PatternObject description="con1_Description" displayName="con1_DisplayName" name="AccountField" patternObjectType="Fields" supported="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="nativeObjectFieldDefinition">
+               <fieldExtensions/>
+            </PatternObject>
+         </PatternObjects>
+      </MetadataPattern>
+   </ConnectorDefinition>
+   <ConnectorWorkflow>
+      <WorkflowTasks>
+         <WorkflowTask id="GENERATE_MESSAGES_MESSAGES" taskType="GENERATE_MESSAGES" componentName="MESSAGES" status="MESSAGES_GENERATION" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="CONNECTION_MODEL_FileSystem" taskType="CONNECTION_MODEL" componentName="FileSystem" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="CONNECTION_PRESENTATION_FileSystem" taskType="CONNECTION_PRESENTATION" componentName="FileSystem" status="GENERATED" taskKind="CodeGenerationTask">
+            <DepenendentTasks>
+               <dependentTasks>CONNECTION_MODEL_FileSystem</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="TEST_CONNECTION_FileSystem" taskType="TEST_CONNECTION" componentName="FileSystem" status="NONE" taskKind="TestTask">
+            <DepenendentTasks>
+               <dependentTasks>CONNECTION_PRESENTATION_FileSystem</dependentTasks>
+               <dependentTasks>CONNECTION_MODEL_FileSystem</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="TYPESYSTEM_con1hestontypesystem" taskType="TYPESYSTEM" componentName="con1hestontypesystem" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="METADATA_ADAPTER_con1_Account_Pattern" taskType="METADATA_ADAPTER" componentName="con1_Account_Pattern" status="GENERATED" taskKind="CodeGenerationTask">
+            <DepenendentTasks>
+               <dependentTasks>TYPESYSTEM_con1hestontypesystem</dependentTasks>
+               <dependentTasks>TEST_CONNECTION_FileSystem</dependentTasks>
+               <dependentTasks>NMO_METADATA_MODEL_Account</dependentTasks>
+               <dependentTasks>NMO_METADATA_FIELD_MODEL_Account</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="METADATA_DEFINITION_con1_Account_Pattern" taskType="METADATA_DEFINITION" componentName="con1_Account_Pattern" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="TEST_NMO_METADATA_Account" taskType="TEST_NMO_METADATA" componentName="Account" status="NONE" taskKind="TestTask">
+            <DepenendentTasks>
+               <dependentTasks>METADATA_ADAPTER_con1_Account_Pattern</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="NMO_METADATA_MODEL_Account" taskType="NMO_METADATA_MODEL" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="NMO_METADATA_FIELD_MODEL_Account" taskType="NMO_METADATA_FIELD_MODEL" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="NMO_RUNTIME_OPERATIONS_Account" taskType="NMO_RUNTIME_OPERATIONS" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="NMO_RUNTIME_MODEL_Account" taskType="NMO_RUNTIME_MODEL" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="NMO_RUNTIME_ADAPTER_Account" taskType="NMO_RUNTIME_ADAPTER" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask"/>
+         <WorkflowTask id="TEST_NMO_READ_Account" taskType="TEST_NMO_READ" componentName="Account" status="NONE" taskKind="TestTask">
+            <DepenendentTasks>
+               <dependentTasks>NMO_RUNTIME_ADAPTER_Account</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="TEST_NMO_WRITE_Account" taskType="TEST_NMO_WRITE" componentName="Account" status="NONE" taskKind="TestTask">
+            <DepenendentTasks>
+               <dependentTasks>NMO_RUNTIME_ADAPTER_Account</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+         <WorkflowTask id="NMO_RUNTIME_ADAPTER_Account" taskType="NMO_RUNTIME_ADAPTER" componentName="Account" status="GENERATED" taskKind="CodeGenerationTask">
+            <DepenendentTasks>
+               <dependentTasks>NMO_METADATA_FIELD_MODEL_Account</dependentTasks>
+               <dependentTasks>NMO_METADATA_MODEL_Account</dependentTasks>
+               <dependentTasks>NMO_RUNTIME_MODEL_Account</dependentTasks>
+               <dependentTasks>TYPESYSTEM_con1hestontypesystem</dependentTasks>
+               <dependentTasks>CONNECTION_MODEL_FileSystem</dependentTasks>
+               <dependentTasks>NMO_METADATA_FIELD_MODEL_Account</dependentTasks>
+               <dependentTasks>NMO_METADATA_MODEL_Account</dependentTasks>
+               <dependentTasks>NMO_RUNTIME_MODEL_Account</dependentTasks>
+               <dependentTasks>TYPESYSTEM_con1hestontypesystem</dependentTasks>
+               <dependentTasks>CONNECTION_MODEL_FileSystem</dependentTasks>
+            </DepenendentTasks>
+         </WorkflowTask>
+      </WorkflowTasks>
+   </ConnectorWorkflow>
+   <ProjectConfiguration>
+      <BuildConfigurations>
+         <JavaBuildConfiguration componentName="FileSystem" componentType="CONNECTION">
+            <JavaLibraryReferences/>
+         </JavaBuildConfiguration>
+         <JavaBuildConfiguration componentName="Account" componentType="RUNTIME">
+            <JavaLibraryReferences/>
+         </JavaBuildConfiguration>
+      </BuildConfigurations>
+   </ProjectConfiguration>
+   <NmoSwaggers/>
+</Connector>

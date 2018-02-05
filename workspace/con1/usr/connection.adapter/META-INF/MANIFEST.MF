@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: con1 Adapter Connection Adapter Bundle
+Bundle-SymbolicName: com.heston.adapter.con1.connection.adapter;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: heston
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: .
+Require-Bundle: com.informatica.sdk.connection,
+ com.informatica.sdk.connection.presentation,
+ org.eclipse.osgi,
+ com.heston.adapter.con1.messages.design,
+ com.heston.adapter.con1.connection.model,
+ com.informatica.sdk.i18n.messages,
+ com.informatica.sdk.exceptionMgr
+Export-Package: com.heston.adapter.con1.connection.adapter
+Bundle-Localization: i18n/plugin

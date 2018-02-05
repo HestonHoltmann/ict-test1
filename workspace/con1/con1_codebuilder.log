@@ -1,0 +1,2289 @@
+ 2018-02-05 14:38:22 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:38:22 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:38:22 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:38:22 -INFO :Generating Project:CONNECT_INFO_ANNOTATED
+ 2018-02-05 14:38:22 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.connection.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.connection.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.connection.annotatedjava\src\com\heston\adapter\con1\connection\model\FileSystemConnectInfo.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.connection.annotatedjava\src\com\heston\adapter\con1\connection\model\FileSystemConnectInfoExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.connection.annotatedjava\src\com\heston\adapter\con1\connection\model\package-info.java]].
+ 2018-02-05 14:38:25 -INFO :
+ 2018-02-05 14:38:25 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.connection.annotatedjava/com.heston.adapter.con1.models.connection.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:38:28 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/connection/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/connection/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/connection/model/FileSystemConnectInfo.class(in = 659) (out= 367)(deflated 44%)
+adding: com/heston/adapter/con1/connection/model/FileSystemConnectInfoExtension.class(in = 1250) (out= 617)(deflated 50%)
+adding: com/heston/adapter/con1/connection/model/package-info.class(in = 253) (out= 197)(deflated 22%)
+
+ 2018-02-05 14:38:28 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.connection.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/connection.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:38:33 -INFO :2018-02-05 14:38:29,050  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:38:29,051  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.connection.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/connection.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:38:31,817  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:38:33 -INFO :Code generation for Project [CONNECT_INFO_ANNOTATED] completed
+ 2018-02-05 14:38:33 -INFO :Code generation for Project [CONNECT_INFO_ANNOTATED] completed
+ 2018-02-05 14:38:33 -INFO :Generating Project:CONNECTION_MODEL
+ 2018-02-05 14:38:33 -INFO :Code generation for Project [CONNECTION_MODEL] completed
+ 2018-02-05 14:38:33 -INFO :Code generation for Project [CONNECTION_MODEL] completed
+ 2018-02-05 14:38:33 -INFO :Generating Project:CONNECTION_ADAPTER
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [CONNECTION_ADAPTER] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [CONNECTION_ADAPTER] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:METAMODEL
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:38:34 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:38:34 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:39:16 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:SEEDPROVIDER
+ 2018-02-05 14:39:16 -INFO :Generating Project:SEEDPROVIDER
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [SEEDPROVIDER] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [SEEDPROVIDER] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [SEEDPROVIDER] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [SEEDPROVIDER] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:TYPESYSTEM
+ 2018-02-05 14:39:16 -INFO :Generating Project:TYPESYSTEM
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [TYPESYSTEM] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [TYPESYSTEM] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [TYPESYSTEM] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [TYPESYSTEM] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:39:16 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:39:16 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:39:16 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:39:16 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:39:16 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:15 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:40:15 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:40:15 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:40:15 -INFO :Generating Project:METADATA_ANNOTATED
+ 2018-02-05 14:40:15 -INFO :Generating Project:METADATA_ANNOTATED
+ 2018-02-05 14:40:15 -INFO :Generating Project:METADATA_ANNOTATED
+ 2018-02-05 14:40:15 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.metadata.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountFieldExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountRecordExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\package-info.java]].
+ 2018-02-05 14:40:15 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.metadata.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountFieldExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountRecordExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\package-info.java]].
+ 2018-02-05 14:40:15 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.metadata.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountFieldExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\AccountRecordExtensions.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.metadata.annotatedjava\src\com\heston\adapter\con1\account\metadata\model\package-info.java]].
+ 2018-02-05 14:40:18 -INFO :
+ 2018-02-05 14:40:18 -INFO :
+ 2018-02-05 14:40:18 -INFO :
+ 2018-02-05 14:40:18 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:18 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:18 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:20 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountFieldExtensions.class(in = 814) (out= 460)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountRecordExtensions.class(in = 816) (out= 461)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/package-info.class(in = 259) (out= 203)(deflated 21%)
+
+ 2018-02-05 14:40:20 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountFieldExtensions.class(in = 814) (out= 460)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountRecordExtensions.class(in = 816) (out= 461)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/package-info.class(in = 259) (out= 203)(deflated 21%)
+
+ 2018-02-05 14:40:20 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountFieldExtensions.class(in = 814) (out= 460)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/AccountRecordExtensions.class(in = 816) (out= 461)(deflated 43%)
+adding: com/heston/adapter/con1/account/metadata/model/package-info.class(in = 259) (out= 203)(deflated 21%)
+
+ 2018-02-05 14:40:20 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:20 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:20 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:25 -INFO :2018-02-05 14:40:21,253  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:21,253  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:23,388  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:25 -INFO :2018-02-05 14:40:21,253  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:21,253  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:23,388  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:25 -INFO :2018-02-05 14:40:21,253  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:21,253  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.metadata.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/metadata.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:23,388  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_ANNOTATED] completed
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_MODEL
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_MODEL
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_MODEL
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Code generation for Project [METADATA_MODEL] completed
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_SEMANTIC
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_SEMANTIC
+ 2018-02-05 14:40:25 -INFO :Generating Project:METADATA_SEMANTIC
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:25 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.metadata.annotatedjava/account.com.heston.adapter.con1.models.metadata.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/metadata.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:29 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:30 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:30 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:30 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\metadata.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Code generation for Project [METADATA_SEMANTIC] completed
+ 2018-02-05 14:40:30 -INFO :Generating Project:RUNTIME_ANNOTATED
+ 2018-02-05 14:40:30 -INFO :Generating Project:RUNTIME_ANNOTATED
+ 2018-02-05 14:40:30 -INFO :Generating Project:RUNTIME_ANNOTATED
+ 2018-02-05 14:40:30 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.runtime.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountCallCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountLookupCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountReadCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountWriteCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\package-info.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\ComplexASO.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\package-info.java]].
+ 2018-02-05 14:40:30 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.runtime.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountCallCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountLookupCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountReadCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountWriteCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\package-info.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\ComplexASO.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\package-info.java]].
+ 2018-02-05 14:40:30 -INFO :Executing Command [[c:\java8\bin\javac, -cp, "C:\Informatica\10.2.0\ICT/Application/jars\*;", -d, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/classes, -sourcepath, C:\Users\hholtmann\proj\ict-test1\workspace\con1/sdk/models.runtime.annotatedjava/src, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountCallCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountLookupCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountReadCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\AccountWriteCapabilityAttributesExtension.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\account\runtime\capability\model\package-info.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\ComplexASO.java, C:\Users\hholtmann\proj\ict-test1\workspace\con1\sdk\models.runtime.annotatedjava\src\com\heston\adapter\con1\runtime\aso\model\package-info.java]].
+ 2018-02-05 14:40:33 -INFO :
+ 2018-02-05 14:40:33 -INFO :
+ 2018-02-05 14:40:33 -INFO :
+ 2018-02-05 14:40:33 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:33 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:33 -INFO :Executing Command [[c:\java8\bin\jar, cvf, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar, .]].
+ 2018-02-05 14:40:35 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountCallCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountLookupCapabilityAttributesExtension.class(in = 826) (out= 428)(deflated 48%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountReadCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountWriteCapabilityAttributesExtension.class(in = 1175) (out= 579)(deflated 50%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/package-info.class(in = 269) (out= 209)(deflated 22%)
+adding: com/heston/adapter/con1/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/ComplexASO.class(in = 600) (out= 354)(deflated 41%)
+adding: com/heston/adapter/con1/runtime/aso/model/package-info.class(in = 254) (out= 198)(deflated 22%)
+
+ 2018-02-05 14:40:35 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountCallCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountLookupCapabilityAttributesExtension.class(in = 826) (out= 428)(deflated 48%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountReadCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountWriteCapabilityAttributesExtension.class(in = 1175) (out= 579)(deflated 50%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/package-info.class(in = 269) (out= 209)(deflated 22%)
+adding: com/heston/adapter/con1/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/ComplexASO.class(in = 600) (out= 354)(deflated 41%)
+adding: com/heston/adapter/con1/runtime/aso/model/package-info.class(in = 254) (out= 198)(deflated 22%)
+
+ 2018-02-05 14:40:35 -INFO :added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountCallCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountLookupCapabilityAttributesExtension.class(in = 826) (out= 428)(deflated 48%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountReadCapabilityAttributesExtension.class(in = 816) (out= 426)(deflated 47%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/AccountWriteCapabilityAttributesExtension.class(in = 1175) (out= 579)(deflated 50%)
+adding: com/heston/adapter/con1/account/runtime/capability/model/package-info.class(in = 269) (out= 209)(deflated 22%)
+adding: com/heston/adapter/con1/runtime/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/(in = 0) (out= 0)(stored 0%)
+adding: com/heston/adapter/con1/runtime/aso/model/ComplexASO.class(in = 600) (out= 354)(deflated 41%)
+adding: com/heston/adapter/con1/runtime/aso/model/package-info.class(in = 254) (out= 198)(deflated 22%)
+
+ 2018-02-05 14:40:35 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:35 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:35 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;, com.informatica.imf.codegen.AnnotJava2Java, -sourceLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src, -targetLocation, C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src, -dependencies, C:\Informatica\10.2.0\ICT/Application/jars]].
+ 2018-02-05 14:40:41 -INFO :2018-02-05 14:40:35,882  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:35,883  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:37,680  WARN AnnotatedJavaSourceLoader - Property:'capAttributes' in model:'D_ASOOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,734  WARN AnnotatedJavaSourceLoader - Property:'operations' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,737  WARN AnnotatedJavaSourceLoader - Property:'ownedCapabilityTypes' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,738  WARN AnnotatedJavaSourceLoader - Property:'defaultConfigs' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:39,482  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:41 -INFO :2018-02-05 14:40:35,882  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:35,883  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:37,680  WARN AnnotatedJavaSourceLoader - Property:'capAttributes' in model:'D_ASOOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,734  WARN AnnotatedJavaSourceLoader - Property:'operations' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,737  WARN AnnotatedJavaSourceLoader - Property:'ownedCapabilityTypes' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,738  WARN AnnotatedJavaSourceLoader - Property:'defaultConfigs' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:39,482  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:41 -INFO :2018-02-05 14:40:35,882  INFO CodeGenerator - Starting code generation...
+2018-02-05 14:40:35,883  INFO CodeGenerator - Command-line arguments [-sourceLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/models.runtime.annotatedjava/src -targetLocation C:\Users\hholtmann\proj\ict-test1\workspace\con1//sdk/runtime.model/src -dependencies C:\Informatica\10.2.0\ICT/Application/jars -sourceType annotatedjava -targetType java ]
+2018-02-05 14:40:37,680  WARN AnnotatedJavaSourceLoader - Property:'capAttributes' in model:'D_ASOOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,734  WARN AnnotatedJavaSourceLoader - Property:'operations' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,737  WARN AnnotatedJavaSourceLoader - Property:'ownedCapabilityTypes' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:37,738  WARN AnnotatedJavaSourceLoader - Property:'defaultConfigs' in model:'DataSourceOperation is a collection of type java.util.Set, which is not supported by IMF and will be converted into a java.util.List and appropriate interface and implementation will be generated for it
+2018-02-05 14:40:39,482  INFO CodeGenerator - Successfully generated code.
+
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_ANNOTATED] completed
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_MODEL
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_MODEL
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_MODEL
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Code generation for Project [RUNTIME_MODEL] completed
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_SEMANTIC
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_SEMANTIC
+ 2018-02-05 14:40:41 -INFO :Generating Project:RUNTIME_SEMANTIC
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.val.GeneratorMainValidationClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.sem.GeneratorMainSemanticClasses, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.factory.GeneratorMainFactory, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:41 -INFO :Executing Command [[c:\java8\jre/bin/java, -classpath, .;C:\Informatica\10.2.0\ICT/Application/jars/*;C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\models.runtime.annotatedjava/account.com.heston.adapter.con1.models.runtime.annotatedjava_1.0.0.jar;, com.informatica.metadata.adaptersdk.internal.codegen.Main, -gen com.informatica.metadata.adaptersdk.internal.codegen.iface.GeneratorMainIface, -ini C:\Users\hholtmann\proj\ict-test1\workspace\con1//usr/runtime.semantic/codegen_account.ini, -m2repo file://], -version 0, -basemodel.version 0, -adapter.version 0]].
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainFactory ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainValidationClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainIface ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :*** Start GeneratorMainSemanticClasses ***
+Using cfg file: C:\Users\hholtmann\proj\ict-test1\workspace\con1\usr\runtime.semantic\codegen_account.ini
+
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_SEMANTIC] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:METAMODEL
+ 2018-02-05 14:40:47 -INFO :Generating Project:METAMODEL
+ 2018-02-05 14:40:47 -INFO :Generating Project:METAMODEL
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METAMODEL] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:40:47 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:40:47 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:MODEL_ATTRIBUTES
+ 2018-02-05 14:40:47 -INFO :Generating Project:MODEL_ATTRIBUTES
+ 2018-02-05 14:40:47 -INFO :Generating Project:MODEL_ATTRIBUTES
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MODEL_ATTRIBUTES] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:40:47 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:40:47 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:UI_WIZARD
+ 2018-02-05 14:40:47 -INFO :Generating Project:UI_WIZARD
+ 2018-02-05 14:40:47 -INFO :Generating Project:UI_WIZARD
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [UI_WIZARD] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:40:47 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:40:47 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:40:47 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:41:32 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:41:32 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:41:32 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:41:32 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:42:05 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_LICENSE_CHECKER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+
+BUILD_MODEL_ATTRIBUTES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+
+BUILD_ADAPTER_FEATURE:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\classes
+
+BUILD_UI_WIZARD:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+
+BUILD_RUNTIME_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 3 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\icons
+     [copy] Copying 7 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes\icons
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\i18n
+      [jar] Building MANIFEST-only jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\null
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+    [javac] Compiling 20 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+
+BUILD_SEEDPROVIDER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\com.heston.adapter.con1.modelattributes_1.0.0.jar
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\com.heston.adapter.con1.ui.wizard_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\com.heston.adapter.con1.seedprovider_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_TYPESYSTEM:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\com.heston.adapter.con1.typesystem_1.0.0.jar
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes\com\heston\adapter\con1\account\metadata\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\com.heston.adapter.con1.metadata.model_1.0.0.jar
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [javac] Compiling 11 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\runtime\aso\package-info.class
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\account\runtime\capability\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_RUNTIME_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+    [javac] Compiling 17 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\com.heston.adapter.con1.runtime.semantic_1.0.0.jar
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Compiling 8 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes\com\heston\adapter\con1\connection\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\com.heston.adapter.con1.connection.model_1.0.0.jar
+
+BUILD_METAMODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\com.heston.adapter.con1.metamodel_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\com.heston.adapter.con1.metadata.semantic_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\com.heston.adapter.con1.connection.adapter_1.0.0.jar
+
+BUILD_METADATA_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+    [javac] Compiling 3 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+
+ 2018-02-05 14:42:05 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_LICENSE_CHECKER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+
+BUILD_MODEL_ATTRIBUTES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+
+BUILD_ADAPTER_FEATURE:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\classes
+
+BUILD_UI_WIZARD:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+
+BUILD_RUNTIME_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 3 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\icons
+     [copy] Copying 7 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes\icons
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\i18n
+      [jar] Building MANIFEST-only jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\null
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+    [javac] Compiling 20 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+
+BUILD_SEEDPROVIDER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\com.heston.adapter.con1.modelattributes_1.0.0.jar
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\com.heston.adapter.con1.ui.wizard_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\com.heston.adapter.con1.seedprovider_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_TYPESYSTEM:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\com.heston.adapter.con1.typesystem_1.0.0.jar
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes\com\heston\adapter\con1\account\metadata\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\com.heston.adapter.con1.metadata.model_1.0.0.jar
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [javac] Compiling 11 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\runtime\aso\package-info.class
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\account\runtime\capability\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_RUNTIME_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+    [javac] Compiling 17 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\com.heston.adapter.con1.runtime.semantic_1.0.0.jar
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Compiling 8 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes\com\heston\adapter\con1\connection\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\com.heston.adapter.con1.connection.model_1.0.0.jar
+
+BUILD_METAMODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\com.heston.adapter.con1.metamodel_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\com.heston.adapter.con1.metadata.semantic_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\com.heston.adapter.con1.connection.adapter_1.0.0.jar
+
+BUILD_METADATA_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+    [javac] Compiling 3 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+
+ 2018-02-05 14:42:05 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_LICENSE_CHECKER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+
+BUILD_MODEL_ATTRIBUTES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+
+BUILD_ADAPTER_FEATURE:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\classes
+
+BUILD_UI_WIZARD:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+
+BUILD_RUNTIME_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 3 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\icons
+     [copy] Copying 7 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes\icons
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\i18n
+      [jar] Building MANIFEST-only jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\null
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+    [javac] Compiling 20 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+
+BUILD_SEEDPROVIDER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\com.heston.adapter.con1.modelattributes_1.0.0.jar
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\com.heston.adapter.con1.ui.wizard_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\com.heston.adapter.con1.seedprovider_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_TYPESYSTEM:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\com.heston.adapter.con1.typesystem_1.0.0.jar
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes\com\heston\adapter\con1\account\metadata\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\com.heston.adapter.con1.metadata.model_1.0.0.jar
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [javac] Compiling 11 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\runtime\aso\package-info.class
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\account\runtime\capability\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_RUNTIME_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+    [javac] Compiling 17 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\com.heston.adapter.con1.runtime.semantic_1.0.0.jar
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Compiling 8 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes\com\heston\adapter\con1\connection\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\com.heston.adapter.con1.connection.model_1.0.0.jar
+
+BUILD_METAMODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\com.heston.adapter.con1.metamodel_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\com.heston.adapter.con1.metadata.semantic_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\com.heston.adapter.con1.connection.adapter_1.0.0.jar
+
+BUILD_METADATA_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+    [javac] Compiling 3 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+
+ 2018-02-05 14:42:05 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_LICENSE_CHECKER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+
+BUILD_MODEL_ATTRIBUTES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+
+BUILD_ADAPTER_FEATURE:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\classes
+
+BUILD_UI_WIZARD:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+
+BUILD_RUNTIME_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+
+BUILD_ADAPTER_CONTRIBUTION:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 3 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\icons
+     [copy] Copying 7 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes\icons
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes\i18n
+      [jar] Building MANIFEST-only jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.feature\null
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+    [javac] Compiling 20 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+
+BUILD_SEEDPROVIDER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\modelattributes\com.heston.adapter.con1.modelattributes_1.0.0.jar
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ui.wizard\com.heston.adapter.con1.ui.wizard_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\seedprovider\com.heston.adapter.con1.seedprovider_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_TYPESYSTEM:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem\com.heston.adapter.con1.typesystem_1.0.0.jar
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\classes\com\heston\adapter\con1\account\metadata\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.model\com.heston.adapter.con1.metadata.model_1.0.0.jar
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+    [javac] Compiling 11 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\runtime\aso\package-info.class
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\classes\com\heston\adapter\con1\account\runtime\capability\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_RUNTIME_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+    [javac] Compiling 17 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.model\com.heston.adapter.con1.runtime.model_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+    [javac] Compiling 9 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.semantic\com.heston.adapter.con1.runtime.semantic_1.0.0.jar
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Compiling 8 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\classes
+    [javac] Creating empty C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\classes\com\heston\adapter\con1\connection\package-info.class
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.model\com.heston.adapter.con1.connection.model_1.0.0.jar
+
+BUILD_METAMODEL:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metamodel\com.heston.adapter.con1.metamodel_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.semantic\com.heston.adapter.con1.metadata.semantic_1.0.0.jar
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\connection.adapter\com.heston.adapter.con1.connection.adapter_1.0.0.jar
+
+BUILD_METADATA_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+    [javac] Compiling 3 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+
+ 2018-02-05 14:55:38 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:38 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:38 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:38 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:38 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:38 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:55:38 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:55:38 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:55:38 -INFO :Generating Project:LICENSE_CHECKER
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Code generation for Project [LICENSE_CHECKER] completed
+ 2018-02-05 14:55:38 -INFO :Generating Project:RUNTIME_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:RUNTIME_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:RUNTIME_ADAPTER
+ 2018-02-05 14:55:38 -INFO :Generating Project:RUNTIME_ADAPTER
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [RUNTIME_ADAPTER] completed
+ 2018-02-05 14:55:39 -INFO :Generating Project:LIBRARY_INFO
+ 2018-02-05 14:55:39 -INFO :Generating Project:LIBRARY_INFO
+ 2018-02-05 14:55:39 -INFO :Generating Project:LIBRARY_INFO
+ 2018-02-05 14:55:39 -INFO :Generating Project:LIBRARY_INFO
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [LIBRARY_INFO] completed
+ 2018-02-05 14:55:39 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:55:39 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:55:39 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:55:39 -INFO :Generating Project:ADAPTER_FEATURE
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [ADAPTER_FEATURE] completed
+ 2018-02-05 14:55:39 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:39 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:39 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:40 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:40 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:40 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:40 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:50 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:50 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:50 -INFO :Generating Project:ADAPTER_CONTRIBUTION
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [ADAPTER_CONTRIBUTION] completed
+ 2018-02-05 14:55:50 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:50 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:50 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:50 -INFO :Generating Project:METADATA_ADAPTER
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [METADATA_ADAPTER] completed
+ 2018-02-05 14:55:50 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:55:50 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:MESSAGES
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:DESIGN_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Code generation for Project [DESIGN_MESSAGES] completed
+ 2018-02-05 14:56:02 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:56:02 -INFO :Generating Project:RUNTIME_MESSAGES
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:03 -INFO :Code generation for Project [RUNTIME_MESSAGES] completed
+ 2018-02-05 14:56:42 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:56:42 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:56:42 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:56:42 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:56:42 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 14:57:01 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_LIBRARY_INFO:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+
+BUILD_UI_WIZARD:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_ADAPTER_CONTRIBUTION:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\com.heston.adapter.con1.libraryInfo_1.0.0.jar
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_RUNTIME_SEMANTIC:
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_DESIGN_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD_RUNTIME_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_RUNTIME_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+    [javac] Compiling 5 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\com.heston.adapter.con1.runtime.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+
+ 2018-02-05 14:57:01 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_LIBRARY_INFO:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+
+BUILD_UI_WIZARD:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_ADAPTER_CONTRIBUTION:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\com.heston.adapter.con1.libraryInfo_1.0.0.jar
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_RUNTIME_SEMANTIC:
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_DESIGN_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD_RUNTIME_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_RUNTIME_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+    [javac] Compiling 5 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\com.heston.adapter.con1.runtime.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+
+ 2018-02-05 14:57:01 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_LIBRARY_INFO:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+
+BUILD_UI_WIZARD:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_ADAPTER_CONTRIBUTION:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\com.heston.adapter.con1.libraryInfo_1.0.0.jar
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_RUNTIME_SEMANTIC:
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_DESIGN_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD_RUNTIME_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_RUNTIME_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+    [javac] Compiling 5 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\com.heston.adapter.con1.runtime.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+
+ 2018-02-05 14:57:01 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_LIBRARY_INFO:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+
+BUILD_UI_WIZARD:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_ADAPTER_CONTRIBUTION:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\com.heston.adapter.con1.libraryInfo_1.0.0.jar
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_RUNTIME_SEMANTIC:
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_DESIGN_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD_RUNTIME_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_RUNTIME_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+    [javac] Compiling 5 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\com.heston.adapter.con1.runtime.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+
+ 2018-02-05 14:57:01 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_LIBRARY_INFO:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+
+BUILD_UI_WIZARD:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_ADAPTER_CONTRIBUTION:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\classes
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\libraryinfo\com.heston.adapter.con1.libraryInfo_1.0.0.jar
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_RUNTIME_SEMANTIC:
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\adapter.contribution\com.heston.adapter.con1.adapter.contribution_1.0.0.jar
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_DESIGN_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\classes
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\licensechecker\com.heston.adapter.con1.licensechecker_1.0.0.jar
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.design\com.heston.adapter.con1.messages.design_1.0.0.jar
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\metadata.adapter\com.heston.adapter.con1.metadata.adapter_1.0.0.jar
+
+BUILD_RUNTIME_MESSAGES:
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes\i18n
+     [copy] Copying 1 file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+    [javac] Compiling 2 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\messages.runtime\com.heston.adapter.con1.messages.runtime_1.0.0.jar
+
+BUILD_RUNTIME_ADAPTER:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+    [javac] Compiling 5 source files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\runtime.adapter\com.heston.adapter.con1.runtime.adapter_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+
+ 2018-02-05 14:57:01 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 14:57:01 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 14:57:01 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 14:57:01 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 14:57:01 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 14:57:01 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 14:57:01 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 14:57:01 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 14:57:01 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 14:57:01 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 14:57:09 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 14:57:09 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 14:57:09 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 14:57:09 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 14:57:09 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+    [mkdir] Created dir: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:21 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml]].
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\build.xml
+
+all:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_LICENSE_CHECKER:
+
+BUILD_UI_WIZARD:
+
+BUILD_MODEL_ATTRIBUTES:
+
+BUILD_ADAPTER_FEATURE:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_LIBRARY_INFO:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_SEEDPROVIDER:
+
+BUILD_TYPESYSTEM:
+
+BUILD_RUNTIME_SEMANTIC:
+
+BUILD_RUNTIME_ANNOTATED:
+
+BUILD_RUNTIME_MODEL:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_ADAPTER_CONTRIBUTION:
+
+BUILD_METADATA_ANNOTATED:
+
+BUILD_METADATA_MODEL:
+
+BUILD_METAMODEL:
+
+BUILD_METADATA_SEMANTIC:
+
+BUILD_CONNECT_INFO_ANNOTATED:
+
+BUILD_CONNECTION_MODEL:
+
+BUILD_DESIGN_MESSAGES:
+
+BUILD_CONNECTION_ADAPTER:
+
+BUILD_METADATA_ADAPTER:
+
+BUILD_RUNTIME_MESSAGES:
+
+BUILD_RUNTIME_ADAPTER:
+     [java] Generating seed for com.heston.adapter.con1.typesystem.Con1TypeSystem in C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\typesystem
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Generating Project:CCI_DEPLOY
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Code generation for Project [CCI_DEPLOY] completed
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:28 -INFO :Executing Command [[C:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant.bat, -buildfile, C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml]].
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+
+ 2018-02-05 15:11:36 -INFO :Buildfile: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\ccibuild.xml
+
+all:
+
+BUILD_CCI_DEPLOY:
+     [copy] Copying 2 files to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes\META-INF
+    [javac] Compiling 1 source file to C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\classes
+      [jar] Building jar: C:\Users\hholtmann\proj\ict-test1\workspace\con1\build\cci.deploy\com.heston.adapter.con1.cci.deploy_1.0.0.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+

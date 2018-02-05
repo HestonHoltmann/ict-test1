@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.typesystem.typesystem" id="CON1TYPESYSTEM">
+      <typesystem identity="com.heston.adapter.con1.typesystem.Con1TypeSystem" seedProviderExtensionId="com.heston.adapter.con1.seedprovider.CON1SEEDPROVIDER"/>
+   </extension>
+</plugin>

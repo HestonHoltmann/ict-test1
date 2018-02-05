@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: con1 Adapter Main Extension Contribution Bundle
+Bundle-SymbolicName: com.heston.adapter.con1.adapter.contribution;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: heston
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.informatica.sdk.adaptersdk,
+ com.informatica.platform.adaptersdk.semantic.sdkbasemodel,
+ com.informatica.platform.adaptersdk.semantic.sdkcanonical,
+ com.informatica.platform.adaptersdk.semantic.sdkpattern,
+ com.heston.adapter.con1.metadata.model,
+ com.heston.adapter.con1.metadata.semantic,
+ com.heston.adapter.con1.metadata.adapter,
+ com.heston.adapter.con1.runtime.model,
+ com.heston.adapter.con1.runtime.semantic,
+ com.heston.adapter.con1.licensechecker

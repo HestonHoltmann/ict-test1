@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.connection.presentation.connectionPresentation" id="CON1ConnectionPresentation">
+      <connectionPresentation resourceType="com.heston.adapter.con1.connection.FileSystemConnectInfo" adapterClass="com.heston.adapter.con1.connection.adapter.FileSystemConnectInfoAdapter"/>
+   </extension>
+   <extension point="com.informatica.sdk.connection.connectInfo" id="CON1CONNECTIONADAPTER">
+      <connectionType metaClass="com.heston.adapter.con1.connection.FileSystemConnectInfo" id="CON1" displayName="%connectionType.name" categoryId="com.heston.file system.category" description="%connectionType.description"/>
+      <category displayName="%category.name" id="com.heston.file system.category" description="%category.description"/>
+   </extension>
+</plugin>

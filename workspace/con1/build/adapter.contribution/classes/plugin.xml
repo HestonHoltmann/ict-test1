@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.adaptersdk.AdapterSDK" id="CON1ADAPTERCONTRIBUTION">
+      <adapter helpPluginIdPrefix="com.informatica.doc.adapters" id="com.heston.adapter.con1" name="con1" shortName="con1" packagePrefix="com.heston.adapter.con1" vendorId="heston" vendorName="heston" version="1.0.0">
+         <metaDataPattern metaModelExtensionID="com.heston.adapter.con1.metamodel.ACCOUNTCON1METAMODEL" modelAttributesExtensionID="com.heston.adapter.con1.modelattributes.ACCOUNTCON1MODELATTRIBUTES" metaDataAdapterClass="com.heston.adapter.con1.metadata.adapter.Con1MetadataAdapter" name="con1con1_Account_Pattern" template="TypeA" typeSystemExtensionID="com.heston.adapter.con1.typesystem.CON1TYPESYSTEM">
+            <patternAttributes name="Containers" value="true"/>
+            <patternAttributes name="Packages" value="true"/>
+            <patternAttributes name="SharedDataRelationships" value="false"/>
+            <patternAttributes name="FlatRecords" value="true"/>
+            <patternAttributes name="Fields" value="true"/>
+            <patternAttributes name="RecordRelationships" value="false"/>
+            <classLoaderPattern loaderType="Custom" classLoadOrder="ParentFirst"/>
+         </metaDataPattern>
+         <nativeMetaDataObjectType InfaLicenseCheckerClass="com.heston.adapter.con1.licensechecker.Con1LicenseChecker" metaDataPatternName="con1con1_Account_Pattern" name="account" nullConnectionAllowed="false" supportsAnonDSO="false" supportsCDO="false" supportsComplexASO="false" supportsSimpleASO="false">
+            <importDialogOptions allowMultiSelect="true" displayFilterByDesc="false" displayFilterByName="true" displayFilterByPath="false" showEntity="true" showHierarchy="always" showRelatedRecords="never" displaySkipDescriptions="false"/>
+            <operationType implicitlyCreated="false" interactionPattern="Connections" libraryExtensionID="com.heston.adapter.con1.libraryInfo.ACCOUNTCON1LIBRARYINFO" multiCapabilitySupport="single" name="AccountRead">
+               <ReadCapability inputProjectionSupport="AccountRead"/>
+            </operationType>
+            <operationType implicitlyCreated="false" interactionPattern="Connections" libraryExtensionID="com.heston.adapter.con1.libraryInfo.ACCOUNTCON1LIBRARYINFO" multiCapabilitySupport="single" name="AccountWrite">
+               <WriteCapability outputProjectionSupport="AccountWrite"/>
+            </operationType>
+            <connectionType connectionExtensionID="com.heston.adapter.con1.connection.adapter.CON1CONNECTIONADAPTER"/>
+         </nativeMetaDataObjectType>
+         <InputProjectionSupport name="AccountRead">
+            <FilterOperation nativeFilterExpression="false" supportPushdown="false"/>
+            <JoinOperation nativeJoinExpression="false" implicitJoin="false"/>
+            <ProjectionOperation dropFields="true" projectionAtNativeSource="false" projectionAtPlatform="false"/>
+            <SortOperation sortAtNativeSource="false" sortAtPlatform="false"/>
+         </InputProjectionSupport>
+         <OutputProjectionSupport name="AccountWrite">
+            <ProjectionOperation dropFields="true"/>
+         </OutputProjectionSupport>
+      </adapter>
+   </extension>
+</plugin>

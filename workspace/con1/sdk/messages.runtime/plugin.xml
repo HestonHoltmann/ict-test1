@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.i18n.messages" id="con1runtime">
+      <group id="con1" prefix="con1">
+         <message id="CONN_SUCC" code="200" severity="Info" text="%con1_CONN_SUCC_200.text" cause="%con1_CONN_SUCC_200.cause" action="%con1_CONN_SUCC_200.action"/>
+      </group>
+   </extension>
+</plugin>

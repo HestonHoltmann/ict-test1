@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="com.heston.adapter.con1" label="con1 Adapter Feature" version="1.0.0" provider-name="heston" type="adapter">
+   <description url="http://www.example.com/description">heston test con1 with ict in github - to test project clone and import accross dev machines that differ in os and how base tools installed by users</description>
+   <copyright url="http://www.example.com/copyright">copyright</copyright>
+   <license url="http://www.example.com/license">license</license>
+   <plugin id="com.heston.adapter.con1.adapter.contribution" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.connection.model" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.connection.adapter" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.seedprovider" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.typesystem" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.metadata.model" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.metadata.semantic" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.runtime.model" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.runtime.semantic" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.metamodel" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.metadata.adapter" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.modelattributes" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.licensechecker" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.libraryInfo" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.messages.design" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.messages.runtime" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+   <plugin id="com.heston.adapter.con1.runtime.adapter" download-size="0" install-size="0" version="1.0.0" unpack="false"/>
+</feature>

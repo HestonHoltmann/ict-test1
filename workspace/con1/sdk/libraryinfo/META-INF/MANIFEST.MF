@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: con1 Adapter Library Info Bundle
+Bundle-SymbolicName: com.heston.adapter.con1.libraryInfo;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: heston
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.informatica.sdk.libraryInfo,
+ com.informatica.platform.adaptersdk.semantic.javasdk,
+ com.heston.adapter.con1.runtime.adapter

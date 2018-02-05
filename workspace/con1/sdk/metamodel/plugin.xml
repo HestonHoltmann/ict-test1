@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.metamodel.metamodel" id="ACCOUNTCON1METAMODEL">
+      <metaModel metaModelName="con1 Adapter Connection, NMO and ASO Models-MetaModels">
+         <package packageName="com.heston.adapter.con1.connection">
+            <metaClass baseMetaClass="com.informatica.metadata.infasdk.connectinfo.sdkadapter.SDKConnectInfo" metaClassName="com.heston.adapter.con1.connection.FileSystemConnectInfo" name="con1 Connect Info"/>
+            <metaClass baseMetaClass="com.informatica.metadata.infasdk.connectinfo.common.sdkmodelextension.SDKConnectInfoModelExtension" metaClassName="com.heston.adapter.con1.connection.FileSystemConnectInfoExtension" name="con1 Connect Info Extension"/>
+         </package>
+         <package packageName="com.heston.adapter.con1.account.metadata">
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.logical.L_ModelExtensionFieldBase" metaClassName="com.heston.adapter.con1.account.metadata.AccountFieldExtensions" name="con1 Field Extension"/>
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.logical.L_ModelExtensionNode" metaClassName="com.heston.adapter.con1.account.metadata.AccountRecordExtensions" name="con1 Record Extension"/>
+         </package>
+         <package packageName="com.heston.adapter.con1.runtime.aso">
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.aso.D_ComplexASO" metaClassName="com.heston.adapter.con1.runtime.aso.ComplexASO" name="con1 Complex ASO"/>
+         </package>
+         <package packageName="com.heston.adapter.con1.account.runtime.capability">
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.asoextension.D_ModelExtensionWriteCapAttributes" metaClassName="com.heston.adapter.con1.account.runtime.capability.AccountWriteCapabilityAttributesExtension" name="con1 Write Capability Attributes"/>
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.asoextension.D_ModelExtensionReadCapAttributes" metaClassName="com.heston.adapter.con1.account.runtime.capability.AccountReadCapabilityAttributesExtension" name="con1 Read Capability Attributes"/>
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.asoextension.D_ModelExtensionLookupCapAttributes" metaClassName="com.heston.adapter.con1.account.runtime.capability.AccountLookupCapabilityAttributesExtension" name="con1 Lookup Capability Attributes"/>
+            <metaClass baseMetaClass="com.informatica.adapter.sdkadapter.asoextension.D_ModelExtensionCallCapAttributes" metaClassName="com.heston.adapter.con1.account.runtime.capability.AccountCallCapabilityAttributesExtension" name="con1 Call Capability Attributes"/>
+         </package>
+      </metaModel>
+   </extension>
+</plugin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.libraryInfo.libraryInfo" id="ACCOUNTCON1LIBRARYINFO">
+      <implUnit library="com.heston.adapter.con1.runtime.adapter.Con1AccountPlugin" osType="JAVA"/>
+   </extension>
+</plugin>

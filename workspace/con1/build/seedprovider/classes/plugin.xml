@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.informatica.sdk.seedprovider.seedProvider" id="CON1SEEDPROVIDER">
+      <SeedProvider class="com.heston.adapter.con1.typesystem.Con1TypeSystem" id="com.heston.adapter.con1.typesystem.Con1TypeSystem.typesystem">
+         <metaClass metaClass="com.informatica.metadata.common.typesystem.TypeSystem"/>
+      </SeedProvider>
+   </extension>
+</plugin>
