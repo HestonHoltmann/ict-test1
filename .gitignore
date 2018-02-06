@@ -12,5 +12,8 @@ buildNumber.properties
 .metadata/
 RemoteSystemsTempFiles/
 
+## infa ict stuff
+.zip
+
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
